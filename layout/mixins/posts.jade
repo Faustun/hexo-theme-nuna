@@ -15,8 +15,8 @@ mixin postCover(item, showThumb)
     a(href= url_for(item.path) itemprop='url')
       h3.post-name(itemprop='name')
         != item.title
-      .post-description(itemprop='description')
-        != item.excerpt
+    time.updated(itemprop='datePublished' datetime=full_date(item.date, 'dddd, MMMM Do YYYY, h:mm:ss a'))
+        != full_date(item.date, 'll')
 
 //- Index Page
 mixin home()
