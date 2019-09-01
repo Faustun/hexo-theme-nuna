@@ -8,9 +8,12 @@ logo: /logo.png
 
 # 分类
 categories:
-    javascript: /categories/javascript/
-    小程序: /categories/program/
-    踩坑记录: /categories/pit/
+    Web开发: /categories/web/
+    Nodejs: /categories/nodejs/
+    Javascript: /categories/js/
+    项目总结: /categories/summary/
+    开发手册: /categories/handbook/
+    性能优化: /categories/optimize/
 
 # 首页文章默认封面
 thumbs: [https://qiniu.fancyrobot.com/FoluToOg8lb6E1wQnn3EDkVQPoW1,
