@@ -28,7 +28,7 @@ if qq
         | ;cid =
         != qq.cid
         | ;var hm = document.createElement('script');
-        | hm.src = 'http://pingjs.qq.com/h5/stats.js';
+        | hm.src = 'https://songzhiguo.github.io/lib/js/blog/stats.js';
         | hm.setAttribute('name', 'MTAH5'); hm.setAttribute('sid', sid); hm.setAttribute('cid', cid);
         | var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);
         | }())
@@ -55,6 +55,8 @@ if go
 
 
 //- pageAccelerator
+script(src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js")
 script(async src="//raw.githack.com/Easyfood/pageAccelerator/master/dist/page-accelerator.min.js")
+script(src=url_for("script/search.js"))
 script(async src=url_for("script/loading.js"))
 script(async src=url_for("script/photo.js"))

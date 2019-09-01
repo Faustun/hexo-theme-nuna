@@ -10,4 +10,6 @@ header
                 - var re = /^(http|https):\/\/*/g
                 - var tar = re.test(value) ? '_blank' : '_self'
                 a(href=url_for(value) target=tar)
-                    i(class='fa icon-#{key}')
+                    i(class='fa fa-#{key}')
+            a(class="search" href="javascript:void(0);")
+                i(class='fa fa-search')

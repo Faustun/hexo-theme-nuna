@@ -27,6 +27,12 @@ mixin home()
                     != config.title
                 p.entry-description
                     != config.description
+            .Nav
+                each value, key in theme.categories
+                    li
+                        a(href=url_for(value))
+                            span
+                                != key
             .entry-list
                 - page.posts.each(function (item) {
                     +postCover(item, true)

@@ -7,10 +7,10 @@ mixin archive()
     - var next = page.next_link
     .paginator
         if page.prev
-            a.prev(href=url_for(prev))
+            a.prev.all(href=url_for(prev))
                 != __('prev')
         if page.next
-            a.next(href=url_for(next))
+            a.next.all(href=url_for(next))
                 != __('next')
 
 

@@ -4,7 +4,9 @@ html(lang=config.language prefix='og: http://ogp.me/ns#')
         include head
     body.pupa
         .loading-bar
+        .modal.fade
         block header
+        include search
         main
             block container
             block pagination

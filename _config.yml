@@ -6,17 +6,24 @@ menu:
 favicon: /favicon.ico
 logo: /logo.png
 
+# 分类
+categories:
+    javascript: /categories/javascript/
+    小程序: /categories/program/
+    踩坑记录: /categories/pit/
+
 # 首页文章默认封面
-thumbs: [//ww4.sinaimg.cn/large/801b780agw1f8afxvijp9j208c08cjsa.jpg,
-        //ww1.sinaimg.cn/large/801b780agw1f8afxv7r1uj208c08cmz0.jpg,
-        //ww1.sinaimg.cn/large/801b780agw1f8afxumedlj208c08cgmy.jpg,
-        //ww1.sinaimg.cn/large/801b780agw1f8afxu0yh3j208c08cjsi.jpg,
-        //ww3.sinaimg.cn/large/801b780agw1f8afxtihj7j208c08cwfh.jpg,
-        //ww4.sinaimg.cn/large/801b780agw1f8afxsv423j20b408cgmh.jpg,
-        //ww4.sinaimg.cn/large/801b780agw1f8afxsfoomj20b407djs6.jpg,
-        //ww1.sinaimg.cn/large/801b780agw1f8afxs19ppj208c08cdg4.jpg,
-        //ww1.sinaimg.cn/large/801b780agw1f8afxrj357j208c08cq3n.jpg,
-        //ww4.sinaimg.cn/large/801b780agw1f8afxqrz8xj208c08cdga.jpg]
+thumbs: [https://qiniu.fancyrobot.com/FoluToOg8lb6E1wQnn3EDkVQPoW1,
+        https://qiniu.fancyrobot.com/FncOIoiMms69rEawnLu-yeYEPAQ1,
+        https://qiniu.fancyrobot.com/Fqnnf414TLxLiFfgKMyJf40BPWEr,
+        https://qiniu.fancyrobot.com/FukOrbgjoOWoyDgzLES7VDqcKxye,
+        https://qiniu.fancyrobot.com/Fgvrd5QsJz2H38yRu3Pey8qzwacq,
+        https://qiniu.fancyrobot.com/FhKb51X3la46syzZpsTS5HTEe8aD,
+        https://qiniu.fancyrobot.com/Fjp8AlZ-fk8iFiN4QKBiM6dxSkbF,
+        https://qiniu.fancyrobot.com/FnuXrTrK_O9f3KbOLXdlImiu6pzW,
+        https://qiniu.fancyrobot.com/Fm-mCKV9pmou66SSSrVg0-heY60n,
+        https://qiniu.fancyrobot.com/FnZZlQUg6rMfAp7GyMUssTLs3OOG,
+        https://qiniu.fancyrobot.com/FhIbF6KmIijodnsIxFVDbjaZ9uLQ]
 
 # Comment
 # disqus: pupa
@@ -24,21 +31,22 @@ thumbs: [//ww4.sinaimg.cn/large/801b780agw1f8afxvijp9j208c08cjsa.jpg,
 
 # Analytics
 # google-analytics:
-ga: UA-69822347-1
+#ga: UA-69822347-1
 # baidu-analytics:
 # ba: //hm.baidu.com/hm.js?b9e5254ddb0a9c4c4cd158df0d05a54c
 # qq mta
-qq:
-    sid: 500303098
-    cid: 500303108
+#qq:
+#    sid: 500303098
+#    cid: 500303108
 # growingio
-go: 90b580e047dd0007
+#go: 90b580e047dd0007
 
 # theme version
 version: 1.0.3
 # theme branch
 branch: next
 # theme font cdn url
-font: //at.alicdn.com/t/font_1472710214_6648843.css
+font: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
 # theme style cdn url
-css: //raw.githack.com/xwartz/hexo-theme-nuna/next/source/style/main.css
+css: //faustun.github.io/lib/css/blog/main.css
+search: //faustun.github.io/lib/css/blog/search.css
